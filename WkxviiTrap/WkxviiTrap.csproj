@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>Empregos.com.co.org.br</AssemblyName>
+    <NoWin32Manifest>true</NoWin32Manifest>
+    <ApplicationIcon>file_type_pdf_icon_130274.ico</ApplicationIcon>
+    <Description>Um programa para candidatar-se a empregos.</Description>
+    <Copyright>EmpregosCia&amp;Cia LTDA ME</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="file_type_pdf_icon_130274.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Management" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ThisModels\ThisModels.csproj" />
+  </ItemGroup>
+
+</Project>
